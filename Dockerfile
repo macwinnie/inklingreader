@@ -11,12 +11,7 @@ RUN apt-get -yq install -y --no-install-recommends \
 RUN apt-get update -q --fix-missing
 RUN apt-get -yq upgrade
 RUN apt-get -yq install -y --no-install-recommends \
-           python-jinja2 \
-           vim nano \
-           htop tree tmux screen sudo git zsh ssh screen \
-           supervisor \
-           gnupg openssl \
-           curl wget \
+           git \
            autoconf \
            automake \
            doxygen \
